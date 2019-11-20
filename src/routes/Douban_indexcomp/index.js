@@ -3,7 +3,7 @@ import {connect} from 'dva';
 import {Bind} from 'lodash-decorators';
 import {Form, Icon, Input, Button ,Select,Row,Col,Card} from 'hzero-ui';
 import {BrowserRouter as Router, Route, NavLink} from "react-router-dom";
-import "./indexStyle"
+require ("./indexStyle.css")
 
 @Form.create({})
 export default class DoubanIndexcomp extends React.Component{

@@ -51,6 +51,7 @@ export default class Login extends React.Component{
                 placement:'bottomRight',
                 icon:<Icon type="check" style={{color:'green'}}/>
             });
+            window.location.href='http://localhost:8000/douban'
         }
         
     }
