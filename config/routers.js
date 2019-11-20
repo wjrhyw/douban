@@ -7,4 +7,12 @@ module.exports = [
          
         ],
       },
+      {
+        path: "/douban/login",  
+        component: "Login", 
+        authorized: true,  
+        models: [  
+          "indexLogin"
+        ],
+      },
 ];
