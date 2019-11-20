@@ -13,6 +13,7 @@ import { connect } from 'dva';
         });
       },
       mapPropsToFields(props) {
+          console.log('历史列表',props.history);
         return {
           username: Form.createFormField({
             value: props.username.value,
@@ -51,6 +52,7 @@ export default class Login extends React.Component{
                 placement:'bottomRight',
                 icon:<Icon type="check" style={{color:'green'}}/>
             });
+            window.location.href='http://localhost:8000/douban';
         }
         
     }
