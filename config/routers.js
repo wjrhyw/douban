@@ -1,7 +1,7 @@
 module.exports = [
-    {
+      {
         path: "/douban",  
-        component: "Douban_index", 
+        component: "Douban_indexcomp", 
         authorized: true,  
         models: [  
          
@@ -9,10 +9,10 @@ module.exports = [
       },
       {
         path: "/douban/login",  
-        component: "Login", 
+        component: "Douban_login", 
         authorized: true,  
         models: [  
-          "indexLogin"
+         
         ],
       },
 ];
