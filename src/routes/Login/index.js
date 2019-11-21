@@ -35,7 +35,7 @@ export default class Login extends React.Component{
         form.validateFields((err, values) => {
             console.log('err是',err);
             if (!err) {
-              console.log('wwwww',values);
+              console.log('wwwwwssssss',values);
             }
           });
         if(username.value!='wh'||password.value!=123){
