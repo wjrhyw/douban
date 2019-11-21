@@ -3,7 +3,7 @@ import {connect} from 'dva';
 import {Bind} from 'lodash-decorators';
 import {Form, Icon, Input, Button ,Select,Row,Col,Card} from 'hzero-ui';
 import {BrowserRouter as Router, Route, NavLink} from "react-router-dom";
-require ("./indexStyle.css")
+//require ("./indexStyle.css")
 
 @Form.create({})
 export default class DoubanIndexcomp extends React.Component{
@@ -15,13 +15,13 @@ export default class DoubanIndexcomp extends React.Component{
         const { Meta } = Card;
         return (
             <React.Fragment> 
-                <Row>
+                {/* <Row>
                     <Col offset={22}>
                     <NavLink to ='/douban/login'>
                         <Button type="primary">登录</Button>
                     </NavLink>
                     </Col>
-                </Row>
+                </Row> */}
                 <Form layout="inline">
                 <Row gutter={16}>
                     <Col className="gutter-row" span={6}>
