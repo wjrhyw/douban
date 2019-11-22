@@ -1,5 +1,5 @@
 module.exports = [
-    {
+      {
         path: "/douban",  
         component: "Douban_index", 
         authorized: true,  
@@ -13,6 +13,14 @@ module.exports = [
         authorized:true,
         models:[
           'indexLogin'
+        ]
+      },
+      {
+        path:"/wjr/test",
+        component:'WjrTest',
+        authorized:true,
+        models:[
+          'wjrtest'
         ]
       }
 ];
