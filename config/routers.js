@@ -22,5 +22,18 @@ module.exports = [
         models:[
           'wjrtest'
         ]
-      }
+      },
+      {
+        path:'/douban/reade',
+        component:'Reade',
+        authorized:true,
+        models:[
+          'reade'
+        ]
+      },
+      // {
+      //   path:'/wjr/nav',
+      //   component:'Nav',
+      //   authorized:true
+      // }
 ];
